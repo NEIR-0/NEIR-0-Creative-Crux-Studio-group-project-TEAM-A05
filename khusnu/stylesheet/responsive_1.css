@@ -1,0 +1,137 @@
+@media all and (max-width: 1000px){
+    .pelayanan h2{
+        font-size: 100px;
+    }
+
+    .photography img{
+        width: 500px;
+        height: 300px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        position: relative;
+        margin-left: 30%;
+    
+    }
+
+    .photography_1 img{
+        width: 500px;
+        height: 300px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        position: relative;
+        margin-left: 40px;
+    
+    }
+
+    .des1{
+        width: 250px;
+        height: 320px;
+        top: 165px;
+        left: 40px;
+        position: absolute;
+        z-index: 10;
+        box-shadow: -15px 15px #000D6B;
+    }
+
+    .des1 h2{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .des1 ul{
+        margin-left: 10px;
+        font-size: 28px;
+    }
+    
+    .des1 li{
+        margin-top: 40px;
+    }
+    
+    .decor1{
+        width: 80%;
+        margin-left: 25px;
+        margin-top: -10px;
+        border: 1px solid black;
+    }
+
+    .des2{
+        width: 250px;
+        height: 320px;
+        top: 549px;
+        left: 480px;
+        position: absolute;
+        z-index: 10;
+        box-shadow: 15px 15px #000D6B;
+    }
+
+    .des2 h2{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .des2 ul{
+        margin-left: 10px;
+        font-size: 28px;
+    }
+    
+    .des2 li{
+        margin-top: 40px;
+    }
+    
+    .decor2{
+        width: 80%;
+        margin-left: 25px;
+        margin-top: -15px;
+        border: 1px solid black;
+    }
+
+    .des3{
+        width: 250px;
+        height: 320px;
+        top: 933px;
+        left: 40px;
+        position: absolute;
+        z-index: 10;
+        box-shadow: -15px 15px #000D6B;
+    }
+
+    .des3 h2{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .des3 ul{
+        margin-left: 10px;
+        font-size: 28px;
+    }
+    
+    .des3 li{
+        margin-top: 40px;
+    }
+
+    .des4{
+        width: 250px;
+        height: 320px;
+        top: 1316px;
+        left: 480px;
+        position: absolute;
+        z-index: 10;
+        box-shadow: 15px 15px #000D6B;
+    }
+
+    .des4 h2{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .des4 ul{
+        margin-left: 10px;
+        font-size: 28px;
+    }
+    
+    .des4 li{
+        margin-top: 40px;
+    }
+    
+}
+

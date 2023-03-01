@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="responsive.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <!-- punya fauzan -->
+        <header>  
+	    	<a href="#" class="logo">TIM A05</a>
+	    	<ul>
+	    		<li><a href="#home" class="active">Home</a></li>
+	    		<li><a href="#about">About</a></li>
+	    		<li><a href="#service">service</a></li>
+	    		<li><a href="#work">work</a></li>
+                <li><a href="#pencapaian">achievement</a></li>
+                <li><a href="#contact">contact</a></li>
+	    		<li><label for="checkbox" class="toggler"><input type="checkbox" id="checkbox"><span class="ball"></span>
+	    		<i class="ri-sun-line sun">☀</i>
+    			<i class="ri-moon-line moon">🌙</i>
+  				</label></li>
+	    	</ul>
+	    </header>
+	    <section id="home">
+	    	<img src="fauzan/foto/stars.png" id="stars">
+	    	<img src="fauzan/foto/moon.png" id="moon">
+	    	<img src="fauzan/foto/mountains_behind.png" id="mountains_behind">
+	    	<h2 id="text">Tim A05 Solid</h2>
+	    	<a href="#about" id="btn">Explore</a>
+	    	<img src="fauzan/foto/mountains_front.png" id="mountains_front">
+	    </section>
+	    <script type="text/javascript">
+	    	let stars = document.getElementById('stars');
+	    	let moon = document.getElementById('moon');
+	    	let mountains_behind = document.getElementById('mountains_behind');
+	    	let text = document.getElementById('text');
+	    	let btn = document.getElementById('btn');
+	    	let mountains_front = document.getElementById('mountains_front');
+	    	let header = document.querySelector('header')
+	    	window.addEventListener('scroll', function(){
+	    		let value = window.scrollY;
+	    		stars.style.left = value * 0.25 + 'px';
+	    		moon.style.top = value * 6 + 'px';
+	    		mountains_behind.style.top = value * 0.5 + 'px';
+	    		mountains_front.style.top = value * 0 + 'px';
+	    		text.style.marginRight = value * 3 + 'px';
+	    		text.style.marginTop = value * 1.5 + 'px';
+	    		btn.style.marginTop = value * 1.5 + 'px';
+	    		header.style.Top = value * 1.5 + 'px';
+	    	})
+	    </script>
+
+
+        <main>
+            <!-- punya zanuar -->
+            <div class="wadah" id="about">
+                <div class="Logo">
+                    <div class="l">
+                        <h1>Creative Crux</h1>
+                    </div>
+                </div>
+                <div class="text">
+                        <p> We are a boutique Creative Marketing and Design Agency in the heart of Milwaukee. Our passion is to partner with great clients to deliver results-driven strategies and innovative concepts with an unmatched creative bandwidth.
+                            <br>
+                            <br>
+                        In today’s globally competitive landscape, establishing consumer relationships grows more challenging every day. With the explosion of digital media and the constant barrage of instant information, connecting with your markets is harder than ever before.
+                            <br>
+                            <br>
+                        Whether you’re a small business, corporation, non-profit or museum, our well-honed creativity combined with our strategy and marketing expertise will strengthen your brand and deliver the very story that resonates with your audience most.
+                    </p>
+                </div>
+                <div class="jasa">
+                    <h1>Our 360° Approach</h1>
+                </div>	
+                <div class="jasa-wrap">
+                    <div class="jasa-icon">
+                        <h2>Brand Development</h2>
+                        <p>Confession time. We’re dynamite at developing amazing logos and taglines. But when it comes to branding, those are just the cherry on top. A brand – your brand – is every interaction you have with your customer. As a Creative Marketing and Design Agency, we’ll help you develop a brand that meets and exceeds the expectations of your audience</p>
+                        <a href="#"> Learn more </a>
+            
+                    </div>
+                    <div class="jasa-icon">
+                        <h2>Digital Marketing</h2>
+                        <p>Digital marketing has expanded beyond just a website. Our expertise in web design, SEO, PPC, social media, email marketing and blogs will get you unstoppable results. We’ll determine which of these services offer you the best ROI and turn brand users into brand advocates</p>
+                        <a href="#"> Learn more </a>
+                    </div>
+                    <div class="jasa-icon">
+                        <h2>experiential marketing</h2>
+                        <p>We understand that successful trade show exhibit design is a delicate balance of form and function. You need an exhibit design that encourages meaningful conversations between visitors and sales people and imprints your brand on the memory banks of customers and vendors alike.</p>
+                        <a href="#"> Learn more </a>
+                    </div>		
+                </div>
+            </div>
+
+
+
+            <!-- punya khusnu -->
+            <div class="pelayanan" id="service">
+                <h2 data-aos="fade-up">our service</h2>
+                <div class="photography">
+                    <img src="khusnu/foto/waxing-gibbous-moon.jpg">
+                    <div class="des1" data-aos="fade-up">
+                        <h2>Photography</h2>
+                        <div class="decor1"></div>
+                        <ul>
+                            <li>Pre-Wedding Shoot</li>
+                            <li>Wedding Shoot</li>
+                        </ul>
+                        </div>   
+                    </div>
+                </div>
+                <div class="photography_1">
+                    <img src="khusnu/foto/robert-shunev-mS1nlYbq1kA-unsplash.jpg">
+                    <div class="des2" data-aos="fade-up">
+                        <h2>Videography</h2>
+                        <div class="decor2"></div>
+                        <ul>
+                            <li>Adversiting Video</li>
+                            <li>Cinematic Look</li>
+                        </ul>
+                        </div>   
+                    </div>
+                </div>
+                <div class="photography">
+                    <img src="khusnu/foto/theregisti-HSXIp58yPyI-unsplash.jpg">
+                    <div class="des3" data-aos="fade-up">
+                        <h2>Cinematography</h2>
+                        <div class="decor2"></div>
+                        <ul>
+                            <li>Movie</li>
+                            <li>Short Movie</li>
+                        </ul>
+                        </div>   
+                    </div>
+                </div>
+                <div class="photography_2">
+                    <img src="khusnu/foto/stop motion.jpg">
+                    <div class="des4" data-aos="fade-up">
+                        <h2>Animations</h2>
+                        <div class="decor2"></div>
+                        <ul>
+                            <li>Stop Motion</li>
+                            <li>3D Animation</li>
+                        </ul>
+                        </div>   
+                    </div>
+                </div>
+            </div> 
+
+
+
+            <!-- punya ijlal -->
+            <div class="karya" id="work">
+                <div class="container" data-aos="fade-up">
+                    <h2>OUR JOURNEY</h2>
+                    <p>we will make all your dreams come true</p>
+                    <div class="dec"></div>
+                    <div class="foto">
+                        <img class="foto1" src="ijlal/photo/arsitektur.jpg">
+                        <img class="foto2" src="ijlal/photo/natural.jpg">
+                        <img class="foto3" src="ijlal/photo/urban.jpg">
+                    </div>
+                    <a class="more" href="#">-- see more --</a>
+
+                    <div class="video" data-aos="fade-up">
+                        <h2>PREVIEW</h2>
+                        <div class="cuplikan">
+                            <video autoplay loop muted>
+                                <source src="ijlal/video/180607_A_101.mp4" >
+                            </video>
+                            <p class="text1">Dynamic movement to make your video better with any angles</p>
+                        </div>
+                        <div class="cuplikan">
+                            <video autoplay loop muted>
+                                <source src="ijlal/video/180626_12_Seocho-Dong_23.mp4" >
+                            </video>
+                            <p>Cinematic look to make your video gives a deep impression</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- punya brandon -->
+            <div class= "achievement-wrapper" id="pencapaian">
+                <div class="achievement">
+                    <div class="kepala">
+                    <h2>Awards & Achievements</h2>
+                  </div>
+                  <div class="achievements">
+                      <div class="awd">
+                          <img src="brandon/img/stud2.jpg">
+                          <p><span>Best<br>Nomination</span><br><br>of<br>Studio Creative Award 2004</p>
+                      </div>
+                      <div class="awd">
+                          <img src="brandon/img/filmfest.jpg">
+                          <p><span>#1</span><br><br>at<br>The International<br>Film Festival Nomination<br>for<br>Best Documentary Video 2012</p>
+                      </div>
+                      <div class="awd">
+                          <img src="brandon/img/natural.jpg">
+                          <p><span>#1</span><br><br>at<br>Photography Award Nomination<br>the Best Natural Shoot 2019</p>
+                      </div>
+                      <div class="awd">
+                          <img src="brandon/img/workshop.jpg">
+                          <p><span>Ambassador</span><br><br>of<br>an International<br>Digital Creative Workshop</p>
+                      </div>
+                  </div>
+                </div>
+              </div>        
+        </main>
+        
+        <!-- punya ijlal -->
+        <footer>
+            <div class="footer" id="contact">
+                <h3>Contact Us:</h3>
+                <div class="sosial">
+                    <a href="#"><img src="ijlal/footer/foto/gmail.png"></a>
+                    <a class="Smedia" href="#">CreativeCrux@gmail.com</a>
+                </div>
+                <div class="sosial">
+                    <a href="#"><img src="ijlal/footer/foto/facebook.png"></a>
+                    <a class="Smedia" href="#">Creative Crux</a>
+                </div>
+                <div class="sosial">
+                    <a href="#"><img src="ijlal/footer/foto/twitter.png"></a>
+                    <a class="Smedia" href="#">Creative_Crux</a>
+                </div>
+            </div>
+        </footer>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+            <script>
+            AOS.init();
+        </script>
+    </body>
+</html>

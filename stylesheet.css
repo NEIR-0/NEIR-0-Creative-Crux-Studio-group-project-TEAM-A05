@@ -1,0 +1,643 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
+}
+
+body{
+    margin: 0 auto;
+    min-height: 100vh;
+	overflow-x: hidden;
+	background: linear-gradient(#2b1055,#7597de);
+}
+/* punya fauzan */
+header{
+	position: absolute;
+    background-color: rgba(25,25,112, 0.5);
+    height: 15px;
+    position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 30px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 10000;
+}
+header .logo{
+	color: #fff;
+	font-weight: 700;
+	text-decoration: none;
+	font-size: 2em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+header ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+header ul li{
+	list-style: none;
+	margin-left: 20px;
+}
+header ul li a{
+	text-decoration: none;
+	padding: 6px 15px;
+	color: #fff;
+	border-radius: 15px;
+}
+
+header ul li a:hover{
+	background: #fff;
+	color: black;
+}
+#checkbox {
+    display: none;
+}
+.toggler {
+    display: block;
+    width: 60px;
+    height: 31px;
+    border: 2px solid #4672fe;
+    border-radius: 30px;
+    position: relative;
+    cursor: pointer;
+}
+.ball,
+.sun,
+.moon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.ball {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #4672fe;
+    border-radius: 50%;
+    left: 1px;
+    z-index: 10;
+    transition: transform 
+    .5s ease-in-out;
+}
+
+.sun {
+    left: 5px;
+    color: white;
+}
+.moon {
+    right: 5px;
+    color: white;
+}
+#checkbox:checked + .ball {
+    transform: 
+    translate(29px, -50%);
+} 
+section{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	padding: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+section:before{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	background: linear-gradient(to top, #1c0522,transparent);
+	z-index: 1000;
+}
+section img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	pointer-events: none;
+}
+section img#moon{
+	mix-blend-mode: screen;
+}
+section img#mountains_front{
+	z-index: 10;
+}
+#text{
+	position: absolute;
+	right: -350px;
+	color: white;
+	white-space: nowrap;
+	font-size: 7.5vw;
+	z-index: 9;
+	
+}
+#btn{
+	text-decoration: none;
+	display: inline-block;
+	padding: 8px 30px;
+	border-radius: 40px;
+	background: white;
+	color: darkslateblue;
+	font-size: 1em;
+	z-index: 9;
+	transform: translateY(100px);
+}
+
+
+
+/* punya zanuar */
+.wadah{
+	width: 100%;
+	opacity: 0.8;
+    padding-top: 50px;
+}
+
+.Logo{
+	height: 70px;
+	text-align: center;
+	padding-bottom: 10px;
+
+
+}
+.l h1{
+	color: #88BBD6;
+	font-family: cursive;
+	border-right: 10px ridge #4CDEF5;
+	border-bottom: 10px ridge #4CDEF5;
+	border-top: 10px solid #000000;
+	border-left: 10px solid #000000;
+	margin: 10px 20px;
+	font-size: 50px;
+
+}
+.text{
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	margin: 0 100px;
+	padding-top: 70px;
+}
+.text p{
+		font-family: serif;
+}
+.jasa{
+    margin-top: 50px;
+	text-align: center;
+	color: white;
+	font-family: fantasy;
+}
+.jasa-wrap{
+	color: white;
+	text-align: center;
+	margin: 50px 10%;
+}
+
+.jasa-icon h2{
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.jasa-icon a{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    color: white;
+    display: inline-block;
+    opacity: 0.7;
+    border-radius: 4px;
+    background-color: #3DDAD7;
+}
+.jasa-icon{
+	text-align: center;
+	padding: 10px;
+}
+.jasa-icon a:hover{
+	opacity: 1;
+}
+
+
+
+/* punya khusnu */
+.pelayanan{
+    width: 100%;
+    background-color: white;
+}
+
+.pelayanan h2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 100px;
+    padding-top: 35px;
+}
+
+.photography, .photography_1, .photography_2{
+    background-color: #2D46B9;
+}
+
+.photography_2{
+    padding-bottom: 20px;
+}
+
+.photography img{
+    width: 900px;
+    height: 500px;
+    padding-top: 50px;
+    margin-left: 30%;
+    padding-bottom: 50px;
+    position: relative;
+
+}
+
+.photography_1 img{
+    width: 900px;
+    height: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    margin-left: 40px;
+}
+
+.photography_2 img{
+    width: 900px;
+    height: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    margin-left: 40px;
+}
+
+.des1{
+    width: 450px;
+    height: 460px;
+    top: 2480px;
+    left: 40px;
+    background-color: #3E00FF;
+    position: absolute;
+    z-index: 10;
+    box-shadow: -20px 20px #000D6B;
+}
+
+.des1 h2{
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: -18px;
+}
+
+.des1 ul{
+    margin-left: 70px;
+    font-size: 45px;
+    color: white;
+    font-weight: normal;
+
+}
+
+.des1 li{
+    margin-top: 40px;
+}
+
+.decor1{
+    width: 80%;
+    border: 2px solid black;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+
+.des2{
+    width: 450px;
+    height: 460px;
+    top: 2985px;
+    left: 855px;
+    background-color: #3E00FF;
+    position: absolute;
+    z-index: 10;
+    box-shadow: 20px 20px #000D6B;
+}
+
+.des2 h2{
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.des2 ul{
+    margin-left: 70px;
+    font-size: 45px;
+    color: white;
+    font-weight: normal;
+
+}
+
+.des2 li{
+    margin-top: 40px;
+}
+
+.decor2{
+    width: 80%;
+    border: 2px solid black;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.des3{
+    width: 450px;
+    height: 460px;
+    top: 3493px;
+    left: 40px;
+    background-color: #3E00FF;
+    position: absolute;
+    z-index: 10;
+    box-shadow: -20px 20px #000D6B;
+}
+
+.des3 h2{
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.des3 ul{
+    margin-left: 70px;
+    font-size: 45px;
+    color: white;
+    font-weight: normal;
+
+}
+
+.des3 li{
+    margin-top: 40px;
+}
+
+.decor3{
+    width: 80%;
+    border: 2px solid black;
+    margin-left: 50px;
+    margin-top: -10px;
+    
+}
+
+.des4{
+    width: 450px;
+    height: 460px;
+    top: 3998px;
+    left: 855px;
+    background-color: #3E00FF;
+    position: absolute;
+    z-index: 10;
+    box-shadow: 20px 20px #000D6B;
+    margin-bottom: 100px;
+}
+
+.des4 h2{
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.des4 ul{
+    margin-left: 70px;
+    font-size: 45px;
+    color: white;
+    font-weight: normal;
+
+}
+
+.des4 li{
+    margin-top: 40px;
+}
+
+.decor4{
+    width: 80%;
+    border: 2px solid black;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+
+
+
+/* punya ijlal */
+.karya{
+    padding-top: 20px;
+    width: 100%;
+    background-color: black;
+    padding-bottom: 450px;
+}
+
+.container{
+    text-align: center;
+}
+
+.container h2{
+    color: white;
+    font-size: 70px;
+    padding-top: 50px;
+}
+
+.container p{
+    color: white;
+    font-size: 18px;
+}
+
+.dec{
+    margin-left: 43.56%;
+    width: 13%;
+    border-bottom: 1px solid #ECB365;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+
+.foto{
+    width: 100%;
+}
+
+.foto img{
+    width: 25%;
+    height: 25%;
+    box-shadow: 30px 30px#ECB365;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    opacity: 0.5;
+}
+
+.foto1{
+    margin-left: -30px;
+    margin-right: 50px;
+}
+
+.foto2{
+    margin-right: 50px;
+}
+
+
+.more{
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+}
+
+.video h2{
+    padding-bottom: 10px;
+    border-bottom: 3px solid #ECB365;
+    font-size: 35px;
+    width: 20%;
+    margin-top: 7%;
+    margin-left: 39.5%;
+    margin-bottom: 20px;
+}
+
+.cuplikan{
+    width: 40%;
+    float: left;
+    margin-top: -40px;
+    margin-left: 85px;
+
+}
+.cuplikan video{
+    width: 500px;
+    height: 400px;
+
+}
+
+.cuplikan p{
+    width: 85%;
+    margin-left: 40px;
+    margin-top: -40px;
+}
+
+
+
+.foto img:hover{
+    position: relative;
+    box-shadow: none;
+    top: 15px;
+    left: 15px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.more:hover{
+    cursor: pointer;
+    color: #ECB365;
+}
+
+
+
+/* punya brandon */
+.achievement-wrapper{
+	text-align: center;
+}
+
+.kepala{
+	margin: 80px 0px 60px 0px;
+}
+
+.kepala h2{
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 20%;
+    margin-left: 40%;
+}
+
+.achievement{
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.awd{
+    float: left;
+    width: 25%;
+    position: relative;
+}
+
+.awd p{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.awd span{
+	font-size: 30px;
+	text-align: right;
+    text-shadow: 2px 2px black;
+
+}
+
+.awd img{
+	width: 90%;
+    height: 300px;
+	border-radius: 10px;
+	transition: all 0.5s;
+}
+
+.awd:hover{
+	filter: brightness(50%);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+
+
+/* footer - ijlal */
+.footer{
+    margin-top: 450px;
+    display: block;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    background-color: #151515;
+    color: white;
+}
+
+.footer h3{
+    float: left;
+    font-size: 28px;
+    margin-left: 210px;
+    margin-right: 60px;
+}
+
+.sosial {
+    margin-top: 12px;
+}   
+
+.sosial img{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 10px;
+}
+
+.Smedia{
+    float: left;
+    margin-right: 70px;
+    text-decoration: none;
+    color: white;
+    line-height: 23px;
+    cursor: pointer;
+}
+
+.Smedia:active{
+    color: grey;
+}

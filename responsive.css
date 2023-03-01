@@ -1,0 +1,782 @@
+@media all and (max-width: 1000px){
+    /*punya fauzan*/
+    header{
+		position: absolute;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 103%;
+		padding: 30px 100px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		z-index: 10000;
+        margin-left: -10px;
+	}
+	header .logo{
+		color: ghostwhite;
+		font-weight: 700;
+		text-decoration: none;
+		font-size: 10px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+        margin-left: -50px;
+        margin-right: 20px;
+	}
+	
+	header ul li{
+		list-style: none;
+		margin-left: 8px;
+	}
+	section{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	padding: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	}
+	section:before{
+		content: '';
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		height: 100px;
+		background: linear-gradient(to top, #1c0522,transparent);
+		z-index: 1000;
+	}
+	section img{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		pointer-events: none;
+	}
+	section img#moon{
+		mix-blend-mode: screen;
+	}
+	section img#mountains_front{
+		z-index: 10;
+		size: 100%;
+	}
+
+
+
+    /* punya khusnu */
+    .pelayanan h2{
+        font-size: 100px;
+    }
+
+    .photography img{
+        width: 500px;
+        height: 300px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        position: relative;
+        margin-left: 30%;
+    
+    }
+
+    .photography_2{
+        padding-bottom: 20px;
+    }
+
+    .photography_1 img{
+        width: 500px;
+        height: 300px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        position: relative;
+        margin-left: 40px;
+    
+    }
+
+    .photography_2 img{
+        width: 500px;
+        height: 300px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        position: relative;
+        margin-left: 40px;
+    }
+
+    .des1{
+        width: 250px;
+        height: 280px;
+        top: 3585px;
+        left: 40px;
+        position: absolute;
+        z-index: 10;
+        box-shadow: -15px 15px #000D6B;
+    }
+
+    .des1 h2{
+        font-size: 25px;
+        text-align: center;
+        margin-top: -25px;
+    }
+
+    .des1 ul{
+        margin-top: -10px;
+        margin-left: 40px;
+        font-size: 25px;
+    }
+    
+    .des1 li{
+        margin-top: 30px;
+    }
+    
+    .decor1{
+        width: 80%;
+        margin-left: 25px;
+        margin-top: -15px;
+        border: 1px solid black;
+    }
+
+    .des2{
+        width: 250px;
+        height: 280px;
+        top: 3891px;
+        left: 480px;
+        position: absolute;
+        z-index: 10;
+        box-shadow: 15px 15px #000D6B;
+    }
+
+    .des2 h2{
+        font-size: 25px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .des2 ul{
+        margin-top: -10px;
+        margin-left: 40px;
+        font-size: 25px;
+    }
+    
+    .des2 li{
+        margin-top: 30px;
+    }
+    
+    .decor2{
+        width: 80%;
+        margin-left: 25px;
+        margin-top: 6px;
+        border: 1px solid black;
+    }
+
+    .des3{
+        width: 250px;
+        height: 280px;
+        top: 4199px;
+        left: 40px;
+        position: absolute;
+        z-index: 10;
+        box-shadow: -15px 15px #000D6B;
+    }
+
+    .des3 h2{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .des3 ul{
+        margin-top: -10px;
+        margin-left: 40px;
+        font-size: 25px;
+    }
+    
+    .des3 li{
+        margin-top: 30px;
+    }
+
+    .des4{
+        width: 250px;
+        height: 280px;
+        top: 4506px;
+        left: 480px;
+        position: absolute;
+        z-index: 10;
+        box-shadow: 15px 15px #000D6B;
+    }
+
+    .des4 h2{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .des4 ul{
+        margin-top: -10px;
+        margin-left: 40px;
+        font-size: 25px;
+    }
+    
+    .des4 li{
+        margin-top: 30px;
+    }
+    
+
+
+    /* punya zanuar */
+	.container{
+		width: auto;
+	}
+
+	.l h1{
+		font-size: 40px;
+	}
+
+    .text{
+        padding-top: 50px;
+		font-size: 30px;
+		margin: 0 50px;
+		font-family: serif;
+	}
+	.jasa h1{
+		font-size: 50px;
+
+	}
+	.jasa-wrap{
+		margin: 5px;
+        padding-bottom: 30px;
+	}
+	.jasa-icon a{
+  		padding: 18px 30px;
+  		border-radius: 5px;
+	}
+	.jasa-icon h2{
+		font-size: 33px;
+        margin-top: 20px;
+	}
+	.jasa-icon p{
+		font-size: 28px;
+	}    
+
+
+    /* punya ijlal */
+    .karya{
+        padding-bottom: 280px;
+    }
+
+    .container h2{
+        font-size: 60px;
+    }
+
+    .container p{
+        font-size: 13px;
+        margin-top: 6px;
+    }
+
+    .dec{
+        margin-left: 38%;
+        width: 24%;
+        border-bottom: 1px solid #ECB365;
+        margin-top: 2px;
+        margin-bottom: 20px;
+    }
+
+    .foto img{
+        width: 25%;
+        height: 25%;
+        box-shadow: 20px 20px#ECB365;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        opacity: 0.5;
+    }
+
+    .foto1{
+        margin-left: -17px;
+        margin-right: 30px;
+    }
+
+    .foto2{
+        margin-right: 30px;
+    }
+
+    .more{
+        font-size: 15px;
+        display: block;
+    }
+    
+    .video h2{
+        display: block;
+        font-size: 20px;
+        width: 25%;
+        margin-left: 37.2%;
+        margin-top: 10px;
+        margin-bottom: 60px;
+    }
+
+    .cuplikan{
+        width: 40%;
+        margin-left: 51px;
+    }
+    .cuplikan video{
+        width: 300px;
+        height: 200px;
+    }
+
+    .cuplikan p{
+        width: 80%;
+        margin-left: 30px;
+        font-size: 13px;
+    }
+    .foto img:hover{
+        position: relative;
+        box-shadow: none;
+        top: 10px;
+        left: 10px;
+        opacity: 1;
+        cursor: pointer;
+    }
+
+
+
+    /* punya brandon */
+    .kepala h2{
+		font-size: 40px;
+		width: 50%;
+		margin-left: 25%;
+		margin-bottom: -20px;
+	}	
+
+	.awd{
+		width: 40%;
+		padding-top: 40px;
+		margin-left: 50px;
+	}
+
+	.awd p{
+		margin-top: 40px;
+		font-size: 20px;
+	}
+
+	.awd img{
+		height: 300px;
+		width: 100%;
+	}
+
+
+
+    /* footer */
+    .footer{
+        margin-top: 800px;
+    }
+
+    .footer h3{
+        font-size: 20px;
+        margin-left: 50px;
+        margin-right: 40px;
+    }
+
+    .sosial{
+        margin-top: 8px;
+    }
+
+    .sosial img{
+        width: 15px;
+        height: 15px;
+    }
+
+    .Smedia{
+        font-size: 13px;
+        margin-right: 45px;
+        margin-top: -3px;
+    }
+}
+
+
+@media all and (max-width: 670px){
+    /*punya fauzan*/
+    body{
+		display: block;
+		width: auto;
+		min-height: 100vh;
+		overflow-x: hidden;
+		background: linear-gradient(#2b1055,#7597de);
+	}
+
+	header{
+        margin-top: -13px;
+		position: absolute;
+        position: fixed;
+		width: 103% !important;
+		display: block;
+		justify-content: space-between;
+		align-items: center;
+		z-index: 10000;
+	}
+
+    .toggler{
+        display: none;
+    }
+
+	header ul li{
+		list-style: none;
+        margin-right: -5px;
+		font-size: 10px;
+	}
+
+    header ul li a{
+        padding: 2px 10px;
+    }
+
+    header ul li a:hover,
+    header ul li a.active{
+	    background: none;
+	    color: white;
+    }
+
+
+	header .logo{
+        display: none;
+        
+	}
+	section img#moon{
+		mix-blend-mode: screen;
+	}
+	section img#mountains_front{
+		z-index: 10;
+		size: auto;
+	}
+	#btn{
+		font-size: 1em;
+	}
+
+
+
+    /* punya khusnu */
+    .pelayanan h2{
+        font-size: 60px;
+    }
+
+    .photography img{
+        width: 250px;
+        height: 150px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        position: relative;
+        margin-left: 29%;
+    
+    }
+
+    .photography_1 img{
+        width: 250px;
+        height: 150px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        position: relative;
+        margin-left: 15px;
+    
+    }
+
+    .photography_2 img{
+        width: 250px;
+        height: 150px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        position: relative;
+        margin-left: 15px;
+    
+    }
+
+    .des1{
+        width: 110px;
+        height: 130px;
+        top: 3064px;
+        left: 15px;
+        position: absolute;
+        z-index: 10;
+        box-shadow: -5px 5px #000D6B;
+    }
+
+    .des1 h2{
+        margin-top: -26px;
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .des1 ul{
+        margin-left: 20px;
+        font-size: 11px;
+    }
+    
+    .des1 li{
+        margin-top: 15px;
+    }
+    
+    .decor1{
+        width: 80%;
+        margin-left: 10px;
+        margin-top: -17px;
+        border: 1px solid black;
+    }
+
+    .des2{
+        width: 110px;
+        height: 130px;
+        top: 3220px;
+        left: 248px;
+        position: absolute;
+        z-index: 10;
+        box-shadow: 5px 5px #000D6B;
+    }
+
+    .des2 h2{
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .des2 ul{
+        margin-left: 20px;
+        font-size: 11px;
+    }
+    
+    .des2 li{
+        margin-top: 15px;
+    }
+    
+    .decor2{
+        width: 80%;
+        margin-left: 10px;
+        margin-top: 4px;
+        border: 1px solid black;
+    }
+
+    .des3{
+        width: 110px;
+        height: 130px;
+        top: 3378px;
+        left: 15px;
+        position: absolute;
+        z-index: 10;
+        box-shadow: -5px 5px #000D6B;
+    }
+
+    .des3 h2{
+        font-size: 11px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .des3 ul{
+        margin-left: 20px;
+        font-size: 11px;
+    }
+    
+    .des3 li{
+        margin-top: 20px;
+    }
+    
+
+    .des4{
+        width: 110px;
+        height: 130px;
+        top: 3534px;
+        left: 248px;
+        position: absolute;
+        z-index: 10;
+        box-shadow: 5px 5px #000D6B;
+    }
+
+    .des4 h2{
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .des4 ul{
+        margin-left: 20px;
+        font-size: 11px;
+    }
+    
+    .des4 li{
+        margin-top: 15px;
+    }
+
+
+    /* punya zanuar */
+    .container{
+		width: auto;
+	}
+
+	.l h1{
+		font-size: 30px;
+	}
+    .text{
+        padding-top: 30px;
+		font-size: 20px;
+		margin: 0 50px;
+	}
+	.jasa h1{
+		font-size: 30px;
+	}
+	.jasa-wrap{
+		margin: 5px;
+	}
+	.jasa-icon a{
+  		padding: 13px 27px;
+  		border-radius: 5px;
+	}
+	.jasa-icon h2{
+		font-size: 23px;
+	}
+	.jasa-icon p{
+		font-size: 18px;
+	}
+
+    
+
+    /* punya ijlal */
+    .karya{
+        padding-bottom: 430px;
+    }
+
+    .foto img{
+        width: 60%;
+        height: 25%;
+        box-shadow: 20px 20px#ECB365;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .foto1{
+        margin-left: 15px;
+    }
+
+    .foto2{
+        margin-left: 15px;
+    }
+
+    .foto3{
+        margin-left: -12px;
+    }
+
+    .container h2{
+        color: white;
+        font-size: 40px;
+    }
+
+    .container p{
+        color: white;
+        font-size: 10px;
+        margin-top: 18px;
+    }
+
+    .dec{
+        margin-left: 38%;
+        width: 24%;
+        border-bottom: 1px solid #ECB365;
+        margin-top: -3px;
+    }
+    
+    
+    .more{
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    .video h2{
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ECB365;
+        font-size: 20px;
+        width: 40%;
+        margin-left: 30%;
+        padding-top: 50px;
+        margin-top: 20px;
+    }
+
+    .cuplikan video{
+        width: 250px;
+        height: 150px;
+        margin-left: 13px;
+        
+    }
+
+    .video p{
+        width: 150%;
+        font-size: 10px;
+        margin-left: 23px;
+        margin-top: 10px;
+        
+    }
+
+    .text1{
+        padding-bottom: 60px;
+    }
+
+    .foto img:hover{
+        position: relative;
+        box-shadow: none;
+        top: 10px;
+        left: 10px;
+        opacity: 1;
+        cursor: pointer;
+    }
+
+
+
+    /* punya brandon */
+    .kepala h2{
+		font-size: 20px;
+		width: 50%;
+		margin-left: 25%;
+		margin-bottom: -60px;
+        margin-top: -10px;
+	}	
+
+    .achievements{
+        margin-bottom: -100px;
+    }
+	.awd{
+		width: 90%;
+		padding-top: 40px;
+		margin-left: 18px;
+	}
+
+	.awd p{
+		margin-top: 40px;
+		font-size: 20px;
+	}
+
+	.awd img{
+		height: 300px;
+		width: 100%;
+	}
+
+
+
+    /* footer */
+    .footer{
+        margin-top: 1540px;
+    }
+
+    .footer h3{
+        font-size: 25px;
+        margin-left: 25px;
+        margin-right: 35px;
+    }
+
+    .sosial{
+        margin-top: 8px;
+    }
+
+    .sosial img{
+        width: 25px;
+        height: 25px;
+        margin-right: 30px;
+        margin-top: -3px;  
+    }
+
+    .Smedia{
+        display: none;
+    }
+}
+
+
+

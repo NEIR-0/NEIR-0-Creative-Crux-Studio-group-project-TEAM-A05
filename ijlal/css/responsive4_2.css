@@ -1,0 +1,89 @@
+@media all and (max-width: 670px){
+    .karya{
+        padding-bottom: 430px;
+    }
+
+    .foto img{
+        width: 60%;
+        height: 25%;
+        box-shadow: 20px 20px#ECB365;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .foto1{
+        margin-left: 15px;
+    }
+
+    .foto2{
+        margin-left: 15px;
+    }
+
+    .foto3{
+        margin-left: -12px;
+    }
+
+    .container h2{
+        color: white;
+        font-size: 40px;
+    }
+
+    .container p{
+        color: white;
+        font-size: 14px;
+        margin-top: -20px;
+    }
+
+    .dec{
+        margin-left: 38%;
+        width: 24%;
+        border-bottom: 1px solid #ECB365;
+    }
+    
+    
+    .more{
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    .video h2{
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ECB365;
+        font-size: 20px;
+        width: 40%;
+        margin-left: 30%;
+        padding-top: 50px;
+        margin-top: -15px;
+    }
+
+    .cuplikan video{
+        width: 250px;
+        height: 150px;
+        margin-left: 13px;
+        
+    }
+
+    .video p{
+        width: 150%;
+        font-size: 13px;
+        margin-left: -50px;
+        margin-top: -25px;
+        
+    }
+
+    .text{
+        padding-bottom: 60px;
+    }
+
+    .foto img:hover{
+        position: relative;
+        box-shadow: none;
+        top: 10px;
+        left: 10px;
+        opacity: 1;
+        cursor: pointer;
+    }
+    
+}
+

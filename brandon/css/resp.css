@@ -1,0 +1,49 @@
+@media all and (max-width: 1000px){
+	.kepala h2{
+		font-size: 40px;
+		width: 50%;
+		margin-left: 25%;
+		margin-bottom: -20px;
+	}	
+
+	.awd{
+		width: 40%;
+		padding-top: 40px;
+		margin-left: 50px;
+	}
+
+	.awd p{
+		margin-top: 40px;
+		font-size: 20px;
+	}
+
+	.awd img{
+		height: 300px;
+		width: 100%;
+	}
+}
+
+@media all and (max-width: 670px){
+	.kepala h2{
+		font-size: 20px;
+		width: 50%;
+		margin-left: 25%;
+		margin-bottom: -60px;
+	}	
+
+	.awd{
+		width: 90%;
+		padding-top: 40px;
+		margin-left: 18px;
+	}
+
+	.awd p{
+		margin-top: 40px;
+		font-size: 20px;
+	}
+
+	.awd img{
+		height: 300px;
+		width: 100%;
+	}
+}

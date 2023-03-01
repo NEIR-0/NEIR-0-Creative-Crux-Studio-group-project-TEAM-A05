@@ -1,0 +1,61 @@
+@media all and (max-width: 1000px){
+	.container{
+		width: auto;
+	}
+
+	.l h1{
+		font-size: 40px;
+	}
+  .text{
+			font-size: 30px;
+			margin: 0 50px;
+			font-family: serif;
+	}
+	.jasa h1{
+		font-size: 50px;
+	}
+	.jasa-wrap{
+		margin: 5px;
+	}
+	.jasa-icon a{
+  		padding: 18px 30px;
+  		border-radius: 5px;
+	}
+	.jasa-icon h2{
+		font-size: 33px;
+	}
+	.jasa-icon p{
+		font-size: 28px;
+	}
+}
+
+
+@media all and (max-width: 680px){
+	.container{
+		width: auto;
+	}
+
+	.l h1{
+		font-size: 30px;
+	}
+  .text{
+			font-size: 20px;
+			margin: 0 50px;
+	}
+	.jasa h1{
+		font-size: 30px;
+	}
+	.jasa-wrap{
+		margin: 5px;
+	}
+	.jasa-icon a{
+  		padding: 13px 27px;
+  		border-radius: 5px;
+	}
+	.jasa-icon h2{
+		font-size: 23px;
+	}
+	.jasa-icon p{
+		font-size: 18px;
+	}
+}

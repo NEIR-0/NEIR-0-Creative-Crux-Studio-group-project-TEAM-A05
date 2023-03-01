@@ -1,0 +1,53 @@
+.achievement-wrapper{
+	text-align: center;
+}
+
+.kepala{
+	margin: 80px 0px 60px 0px;
+}
+
+.kepala h2{
+  border-right: 2px solid gray;
+  border-bottom: 2px solid grey;
+  width: 20%;
+  margin-left: 40%;
+}
+
+.achievement{
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.awd{
+  float: left;
+  width: 25%;
+  position: relative;
+}
+
+.awd p{
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+.awd span{
+	font-size: 50px;
+	text-align: right;
+  text-shadow: 2px 2px black;
+
+}
+
+.awd img{
+	width: 90%;
+  height: 300px;
+	border-radius: 10px;
+	transition: all 0.5s;
+}
+
+.awd:hover{
+	filter: brightness(50%);
+  transition: all 0.5s;
+  cursor: pointer;
+}
